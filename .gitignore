@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# AWS credentials — NEVER commit these
+.env
+*.pem
+*.key
+credentials
+aws_credentials.json
+
+# Reports (may contain sensitive findings)
+report.html
+report.json
+threat_report.html
+threat_report.json
+*.report.*
